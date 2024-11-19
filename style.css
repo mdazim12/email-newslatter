@@ -1,6 +1,6 @@
 .hero_section {
     position: relative;
-    background-image: url('https://i.ibb.co/vkCW2H1/toy-bricks-table-with-word-my-blog-144627-47466.jpg');
+    background-image: url('/Spindeldoctor Newsletter-02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -156,4 +156,45 @@
 .pro_sec_img{
     width: 30%;
     float: right;
+}
+
+.spindle_section{
+    background-color: black;
+    padding: 50px 0px;
+}
+.spindle_content{
+    width: 85%;
+    margin: 0px auto;
+}
+.spindle_subtitle{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.spindle_title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: -20px 0px;
+}
+.highlight_text{
+    color: red;
+}
+.spindle_des{
+    color: white;
+    font-size: 18px;
+    text-align: right;
+}
+
+.spindle_wrapper{
+    width: 60%;
+    margin: 0px auto;
+    
+}
+.spindle_icon{
+    width: 50px;
+    float: right;
+   
 }
