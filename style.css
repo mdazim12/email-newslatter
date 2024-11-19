@@ -264,6 +264,45 @@ body{
     width: 50%;
 }
 
+.footer{
+    background-color: black;
+    padding: 30px 0px;
+}
+.all_contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact_items{
+    display: flex;
+    align-items: center;
+    
+}
+.contact_items img{
+    width: 40px;
+    height: 40px;
+}
+.contact_mail a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.foo_des{
+    color: white;
+    text-align: center;
+}
+.foo_main{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.foo_img{
+    text-align: center;
+}
+.foo_img_se{
+    margin: 0px auto;
+    text-align: center;
+}
+
 
 
 
@@ -415,4 +454,16 @@ body{
     .time_des{
         font-size: 12px;
     }
+    .contact_items img{
+        width: 15px;
+        height: 15px;
+    }
+    .contact_mail a{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .contact_items{
+        align-items: center;
+    }
+    
 }
