@@ -1,6 +1,11 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+
 .hero_section {
     position: relative;
-    background-image: url('/Spindeldoctor Newsletter-02.jpg');
+    background-image: url('https://s3-eu-west-1.amazonaws.com/files.crsend.com/409000/409833/images/Spindeldoctor_Newsletter-02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,7 +31,6 @@
     z-index: 2; /* Ensures the content appears above the overlay */
     width: 85%;
     margin: 0 auto;
-    padding: 50px 0;
 }
 
 .sub_title {
@@ -46,6 +50,7 @@
     font-size: 16px;
     text-align: center;
     color: white;
+    line-height: 25px;
 }
 
 .about{
@@ -79,7 +84,7 @@
 }
 .about_des{
     color: gray;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: -10px;
 }
 .about_img{
@@ -154,7 +159,7 @@
     font-size: 20px;
 }
 .pro_sec_img{
-    width: 30%;
+    width: 20%;
     float: right;
 }
 
@@ -197,4 +202,217 @@
     width: 50px;
     float: right;
    
+}
+.services_title{
+    text-align: center;
+}
+.ser_des{
+    color: black;
+    font-size: 16px;
+}
+.ser_icon{
+    width: 20%;
+}
+.services_box{
+    box-shadow: 0px 5px 15px 5px #b5b3b3;
+    width: 33.3%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+.services_box img{
+    width: 120px;
+}
+.ser_des{
+    margin: -10px 0px;
+}
+.ser_icon{
+    padding: 10px 0px;
+}
+.all_services{
+    display: flex;
+}
+.time_section{
+    background-color: black;
+    padding: 50px 0px;
+    margin: 20px 0px;
+}
+.time_container{
+    display: flex;
+    align-items: center;
+}
+.time_contenr{
+    width: 65%;
+    text-align: center;
+}
+.time_title{
+    font-size: 35px;
+    color: white;
+    font-weight: 900;
+}
+.time_des{
+    color: white;
+    margin: -10px 0px;
+    font-size: 16px;
+}
+.time_img{
+    width: 35%;
+    text-align: center;
+}
+.time_img img{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive css */
+
+@media (max-width: 768px) {
+    .hero_section{
+        padding: 0px 0px;
+    }
+    .sub_title {
+        font-size: 12px;
+        
+    }
+
+    .title {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+
+    .about_picture{
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+    }
+    .about_wrapper{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .about_description{
+        font-size: 12px;
+    }
+    .about_title{
+        font-size: 16px;
+    }
+    .about_name{
+        font-size: 16px;
+    }
+    .about_des{
+        font-size: 12px;
+    }
+    .about_content_wrapper{
+        text-align: center;
+        width: 94%;
+        margin: 0px auto;
+    }
+    .product_images img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .product_title{
+        font-size: 16px;
+    }
+    .product_description{
+        font-size: 12px;
+    }
+    .product_content{
+        width: 40%;
+        padding: 0px;
+    }
+    .product_images{
+        width: 60%;
+        padding: 20px;
+    }
+    .about_btn{
+        background-color:red ;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .pro_sec_img{
+        width: 50%;
+        float: right;
+    }
+    .spindle_subtitle{
+        font-size: 12px;
+    }
+    .spindle_title{
+        font-size: 25px;
+        margin: -10px 0px
+    }
+    .spindle_icon{
+        width: 20px;
+    }
+    .spindle_des{
+        font-size: 12px;
+    }
+    .spindle_wrapper{
+        width: 80%;
+    }
+    
+    .ser_icon{
+        width: 05%;
+    }
+    .services_box img{
+        width: 80px;
+    }
+    .services_box{
+        box-shadow: 0px 5px 15px 5px #b5b3b3;
+        width: 33.3%;
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 05px;
+    }
+    .ser_des{
+        margin: 10px 0px;
+    }
+    .time_title{
+        font-size: 20px;
+    }
+    .time_des{
+        font-size: 12px;
+    }
 }
