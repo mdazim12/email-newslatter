@@ -56,6 +56,7 @@
     width: 85%;
     margin: 0px auto;
     display: flex;
+    align-items: center;
 
 }
 .about_img{
@@ -83,4 +84,41 @@
 }
 .about_img{
     border-right: 4px solid white;
+}
+
+.about_content{
+    width: 60%;
+}
+.about_content_wrapper{
+    text-align: center;
+    width: 70%;
+    margin: 0px auto;
+}
+.about_description{
+    color: white;
+    font-size: 20px;
+}
+.about_title{
+    color: white;
+    font-size: 22px;
+}
+.about_btn{
+    background-color:red ;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.about_google{
+    width: 70%;
+    
+}
+.star_icon{
+    color: yellow;
+    font-size: 30px;
+}
+.rating_text{
+    color: white;
+    font-size: 18px;
 }
